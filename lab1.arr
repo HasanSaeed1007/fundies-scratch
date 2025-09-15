@@ -39,18 +39,27 @@ traffic_light_green = overlay-align("center", "bottom",
 traffic_light_green
 
 #4
+#Creates a solid black rectangle with width 50 and height 20
 rectangle(50, 20, "solid", "black")
+#Creates a solid red circle with radius 30
 circle(30, "solid", "red")
 
 
 #5
 background1 = rectangle(400, 100, "solid", "dark-green")
+#Creates a solid dark green strip to act as the bottom of the flag
 
 background2 = above(rectangle(400, 100, "solid", "white"), background1)
+#Adds a solid white strip to act as the middle of the flag above the dark green strip created previously
 
 background3 = above(rectangle(400, 100, "solid", "black"), background2)
+#Adds a solid black strip to act as the top of the flag above the white and dark green stripes that have been created previously.
 
 triangle1 = rotate(270, triangle(275, "solid", "red"))
+#Creates and rotates a solid red triangle 270 degrees anti-clockwise
+
 final_flag = overlay-align("left", "middle", triangle1, background3)
+#Overlays the red triangle over the background and aligns it to the left of the flag.
 
 final_flag
+#Prints the final flag
