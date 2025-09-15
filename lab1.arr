@@ -68,3 +68,4 @@ final_flag = overlay-align("left", "middle", triangle1, background3)
 
 final_flag
 # Prints the final flag
+
