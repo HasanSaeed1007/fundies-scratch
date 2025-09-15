@@ -44,7 +44,7 @@ circle(30, "solid", "red")
 
 
 #5
-background1 = rectangle(400, 100, "solid", "green")
+background1 = rectangle(400, 100, "solid", "dark-green")
 
 background2 = above(rectangle(400, 100, "solid", "white"), background1)
 
