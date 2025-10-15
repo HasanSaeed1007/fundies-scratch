@@ -64,11 +64,5 @@ where:
 end
 
 #6
-fun my-doubles(num-list :: List) block:
-  var original = num-list[n]
-  doubles-list = [list: ""]
-  for each(n from num-list):
-    original = original * 2
-    doubles-list = 
-  end
+
   
