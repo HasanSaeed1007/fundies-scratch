@@ -92,3 +92,4 @@ fun is-severe(w :: WeatherReport) -> String:
     "False"
   end
 end
+
